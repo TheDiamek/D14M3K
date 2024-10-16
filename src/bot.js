@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const fs = require('fs');
 
-const { TOKEN } = process.env;
+const { TOKEN } = process.env.TOKEN;
 
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 
