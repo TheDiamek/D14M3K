@@ -20,6 +20,12 @@
 
     "license": "ISC",
 
+    "engines": {
+        
+        "node": ">=16.5.0 <19.x"
+        
+    },
+
     "dependencies": {
 
         "@discordjs/rest": "^2.4.0",
