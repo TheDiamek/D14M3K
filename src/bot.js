@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const fs = require("fs");
-const express = require("express");
+/*const express = require("express");
 
 const app = express();
 
@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-});
+});*/
 
-const TOKEN = process.env.TOKEN;
+const { TOKEN } = process.env;
 
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 
